@@ -1,14 +1,4 @@
-# Selamat datang di Codeblox
-
-Melalui dokumentasi ini, kami dengan segenap hati, menulis sebuah panduan yang mengandung informasi seputar langkah untuk mulai belajar koding dengan penjelasan yang mudah dipahami bagi teman-teman yang belum memiliki pengalaman ngoding. Selamat belajar ❤️
-
-1. [Persiapan Sebelum Ngoding](PreCodeBriefing.md)
-
----
-
-
-
-# 👩🏻‍💻 Dasar-Dasar Visual Programming
+# Dasar-Dasar Visual Programming
 
 Visual Programming merupakan metode belajar inovatif yang diterapkan di Codeblox. Metode ini, dalam bahasa yang sederhana, membekali siswa untuk berfikir secara terstruktur dengan memahami dan menerapkan proses yang tersistematik dengan visualisasi yang interaktif.
 
@@ -16,9 +6,9 @@ Visual Programming merupakan metode belajar inovatif yang diterapkan di Codeblox
 
 ---
 
-## **📖 Topik Pembahasan**
+## **Topik Pembahasan**
 
-Berikut merupakan topik bahasan yang telah dikurasi secara kronologis untuk memudahkan siswa dalam mempelajari dan menerapkan Visual Programming bersama Codeblox
+Layer merupakan elemen dasar dari sebuah obyek yang dapat kamu rancang dan modifikasi secara kreatif. Misalnya, kamu hendak merancang sebuah obyek berbentuk lingkaran, maka hal pertama yang harus kamu lakukan adalah merancang Layer baru bernama `lingkaran`. Berikut contoh kodenya:
 
 1. **[Layer](#console-log)**
 2. **[Set Device](#set-device)**
@@ -26,9 +16,12 @@ Berikut merupakan topik bahasan yang telah dikurasi secara kronologis untuk memu
 4. **[Scroll Component](#scroll-component)**
 5. **[Page Component](#page-component)**
 6. **[Flow Component](#flow-component)**
-7. **[Basic Animation](#basic-animation)**
+7. **[Lottie](#lottie)**
+8. **[Gotchas](#gotchas)**
 
 ---
+
+
 
 ## 1. Layer
 
@@ -215,7 +208,9 @@ onTouchStart;
 
 ---
 
-## 2. Set Device
+
+
+## Set Device
 
 ```javascript
 let Device = new DeviceComponent();
@@ -223,9 +218,9 @@ Device.setupContext();
 Device.deviceType = "apple-iphone-7-gold";
 ```
 
----
+[Back to top](#notes-and-snippets)
 
-## 3. Set Custom Device
+## Set Custom Device
 
 ```javascript
 let Device = new DeviceComponent();
@@ -240,9 +235,9 @@ Device.customize({
 });
 ```
 
----
+[Back to top](#notes-and-snippets)
 
-## 4. Scroll Component
+## Scroll Component
 
 ```javascript
 // Scroll Component Example
@@ -267,9 +262,9 @@ myScroll.on(Events.Move, function () {
 });
 ```
 
----
+[Back to top](#notes-and-snippets)
 
-## 5. Page Component
+## Page Component
 
 ```javascript
 // Page Component Example
@@ -302,7 +297,9 @@ for (let i = 0; i < pageCount; i++) {
 }
 ```
 
-## 6. Flow Component
+[Back to top](#notes-and-snippets)
+
+## Flow Component
 
 ```javascript
 // Flow Component Example
@@ -357,9 +354,9 @@ screenB.onClick(function () {
 });
 ```
 
----
+[Back to top](#notes-and-snippets)
 
-## 7. Basic Animation
+## Lottie
 
 ```javascript
 // Here's a basic example on how to use the Lottie Layer
@@ -396,3 +393,19 @@ on("change:direction", ()=>{
 	console.log('Direction changed');
 });
 ```
+
+[Back to top](#notes-and-snippets)
+
+## Gotchas
+
+> Getting a layer's background color
+
+```javascript
+// In the old times, this line would return the value you expect
+print(layerA.backgroundColor);
+
+// This is how you'd access the color value now
+console.log(layerA.backgroundColor.color);
+```
+
+[Back to top](#notes-and-snippets)
