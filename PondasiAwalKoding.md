@@ -2,7 +2,7 @@
 
 Visual Programming merupakan metode belajar inovatif yang diterapkan di Codeblox. Metode ini, dalam bahasa yang sederhana, membekali siswa untuk berfikir secara terstruktur dengan memahami dan menerapkan proses yang tersistematik dengan visualisasi yang interaktif.
 
-*tambahin video disini*
+[![Everything Is AWESOME](https://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=WNLfwTz6A4s&t=700s "Everything Is AWESOME")
 
 ---
 
