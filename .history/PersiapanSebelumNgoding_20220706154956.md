@@ -1,0 +1,42 @@
+# 🔍 Persiapan Sebelum Ngoding
+
+Kami paham bahwa kalian tidak sabar untuk segera terjun ngoding. Namun sebelumnya, silahkan baca terlebih dahulu panduan perihal hal apa yang harus dipersiapkan supaya pengalaman belajarnya nyaman 👍🏻
+
+## **📖 Topik Pembahasan**
+
+1. **[Introduction to Galileo](#introduction-to-galileo)**
+2. **[Cara Install Galileo](#set-device)**
+
+---
+
+## 1. Introduction to Galileo
+
+Dalam upaya meningkatkan pengalaman belajar dengan pendekatan visual programming, Codeblox mengembangkan sebuah wahana pembelajaran dengan template berbasis Javascript. Tujuan utama dibentuknya wahana ini yakni agar memudahkan siswa dalam mencoba, mengotak-atik dan memahami prinsip visual programming secara interaktif
+
+<p><img align="center" alt="gif" src="https://res.cloudinary.com/karyaanakbangsa/image/upload/v1657091077/codeblox/codeblox_onnvuu.gif" width="500" height="320" /><p>
+
+---
+
+
+## 2. Cara Install Galileo
+
+1. **Install program bernama Visual Studio Code di komputer Anda melalui link [ini](https://code.visualstudio.com/download), lalu buka aplikasi Visual Studio Code, masuk ke menu Extension dan install `live-server` dan `live-preview`. Extension atau plugins tersebut bertujuan untuk menghubungkan dan memvisualisasikan project Anda di web browser**
+
+   ![1657083642527](image/README/1657083642527.png)
+2. **Khusus untuk pengguna Windows, download program Git Bash melalui link [ini](https://github.com/git-for-windows/git/releases/download/v2.37.0.windows.1/Git-2.37.0-64-bit.exe). Git Bash bertujuan untuk menghubungkan komputer Anda dengan Galileo melalui sourc control. Dalam praktiknya, Anda bisa 'import' project Galileo dari Github dan keep updated dengan berbagai pembaruhan yang dilakukan team Codeblox di dalam Galileo**
+
+   ![1657083690311](image/README/1657083690311.png)
+3. **Buat folder baru di komputer Anda, misalnya di Desktop dengan nama `Codeblox`, lalu Buka Terminal (MacOS) atau Command Prompt (Windows), lalu tulis script berikut: `cd` yang merupakan singkatan dari create directory, atau membuat direktori yang nantinya Anda gunakan untuk menjalankan Galileo**
+4. 
+5. **Setelah `cd` ditulis, drag and drop folder baru Anda ke dalam Terminal / Command Prompt dan tekan `Enter`. Proses ini, jika diterjemahkan dalam bahasa awam berarti Anda tengah mempersiapkan tempat yang akan Anda gunakan untuk mengintegrasikan Galileo**![1657083934113](image/README/1657083934113.png)![1657083971218](image/README/1657083971218.png)
+6. **Masih di dalam Terminal / Command Prompt, silahkan copy-paste-enter script `git clone -b playground git@github.com:codebloxedu/galileo.git`. Arti dari proses ini adalah Anda sedang import Galileo ke dalam komputer Anda**
+
+   ![1657084038080](image/README/1657084038080.png)
+7. **Galileo telah berhasil terintegrasi di komputer Anda. Langkah terakhir adalah drag and drop folder Codeblox ke dalam Visual Studio Code dan ketuk tombol Go Live yang berada di pojok kanan bawah. Ingat, tombol Go Live hanya akan muncul apabila Anda telah menginstall extension `Live-Preview `dan `Live-Server`**
+
+   ![1657084279709](https://file+.vscode-resource.vscode-cdn.net/Users/cordova/Documents/My%20Works/Codeblox/Product%20%26%20Curriculum/guide/image/README/1657084279709.png)
+8. **Anda bisa mulai bermain dan belajar bersama Codeblox! ❤️ – Langkah selanjutnya, silahkan baca dan pelajari Dasar-Dasar Visual Programming di sini**
+
+   ![1657084367984](image/README/1657084367984.png)
+
+---
