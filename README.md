@@ -1,15 +1,19 @@
-# 🔍 Persiapan Sebelum Ngoding
+# 🎉 Welcome to Codeblox
 
-Melalui dokumentasi ini, kami dengan segenap hati, menulis sebuah panduan yang mengandung informasi seputar langkah untuk mulai belajar koding dengan penjelasan yang mudah dipahami bagi teman-teman yang belum memiliki pengalaman ngoding. Selamat belajar ❤️
+**Salam kenal semuanya! 👋🏻**
 
-## **📖 Topik Pembahasan**
+**Codeblox merupakan wahana belajar koding dan design dengan metode belajar inovatif yang bernama Visual Programming**
 
-1. **[Introduction to Galileo](#introduction-to-galileo)**
-2. **[Cara Install Galileo](#set-device)**
+Di dalam situs ini, kami dengan segenap hati, menulis sebuah panduan yang mengandung informasi seputar langkah untuk mulai belajar koding dengan penjelasan yang mudah dipahami bagi teman-teman yang belum memiliki pengalaman ngoding. Selamat belajar ❤️
+
+## **📖 Hal yang harus dipersiapkan**
+
+1. **[Mengenal Galileo: Media Pembelajaran dari Codeblox](#mengenal-galileo)**
+2. **[Cara Install Galileo](#cara-install-galileo)**
 
 ---
 
-## 1. Introduction to Galileo
+## 1. Mengenal Galileo
 
 Dalam upaya meningkatkan pengalaman belajar dengan pendekatan visual programming, Codeblox mengembangkan sebuah wahana pembelajaran dengan template berbasis Javascript. Tujuan utama dibentuknya wahana ini yakni agar memudahkan siswa dalam mencoba, mengotak-atik dan memahami prinsip visual programming secara interaktif
 
@@ -38,8 +42,6 @@ Dalam upaya meningkatkan pengalaman belajar dengan pendekatan visual programming
    ![1657084367984](image/README/1657084367984.png)
 
 ---
-
-
 
 # 👩🏻‍💻 Dasar-Dasar Visual Programming
 
@@ -136,7 +138,7 @@ y: 0;
 z: 0;
 ```
 
-Lantas, setelah kamu memahami penerapan `atribut`, langkah berikutnya adalah memahami bagaimana menerjemahkan kode menjadi 'visual yang bergerak' atau kausalitas antara kode yang kamu tulis, dengan apa efek visual yang terjadi. Ini merupakan esensi dari visual programming. Nah, untuk mengeksekusi kode menjadi visual yang interaktif, berikut merupakan sederet fungsi yang dapat kamu implementasi 
+Lantas, setelah kamu memahami penerapan `atribut`, langkah berikutnya adalah memahami bagaimana menerjemahkan kode menjadi 'visual yang bergerak' atau kausalitas antara kode yang kamu tulis, dengan apa efek visual yang terjadi. Ini merupakan esensi dari visual programming. Nah, untuk mengeksekusi kode menjadi visual yang interaktif, berikut merupakan sederet fungsi yang dapat kamu implementasi
 
 ```javascript
 //Struktur kodenya kurang lebih akan menjadi seperti ini
@@ -283,9 +285,7 @@ Device.customize({
 
 Scroll Component – seperti namanya, maka jika diterjemahkan dalam bahasa Indonesia, artinya menjadi 'komponen yang dapat digulir, digulung atau ya, scroll (sepertinya artinya terdengar aneh jika diterjemahkan dalam Bahasa 😄)
 
-
 <p><img align="center" alt="gif" src="https://miro.medium.com/max/1400/1*GtTMpOQ1WxVHAjBq42wV1Q.gif" width="650" height="250" /><p>
-
 
 ```javascript
 // Menentukan ukuran device atau layar
@@ -317,11 +317,9 @@ myScroll.on(Events.Move, function () {
 
 ## 5. Page Component
 
-Untuk memahami PageComponent, kamu bisa bayangkan aplikasi Gojek dimana di dalam halaman Gofood ada pilihan kategori kuliner seperti Western, Korean, Japanese, dan lainnya. Nah, pilihan kategori tersebut merupakan sekumpulan halaman, atau Page yang mengandung informasi yang beragam. 
-
+Untuk memahami PageComponent, kamu bisa bayangkan aplikasi Gojek dimana di dalam halaman Gofood ada pilihan kategori kuliner seperti Western, Korean, Japanese, dan lainnya. Nah, pilihan kategori tersebut merupakan sekumpulan halaman, atau Page yang mengandung informasi yang beragam.
 
 <p><img align="center" alt="gif" src="https://miro.medium.com/max/1400/1*cO35iKi06gb87bsB-UMGmA.gif" width="500" height="320" /><p>
-
 
 ```javascript
 // Menentukan ukuran device atau layar
@@ -372,9 +370,7 @@ for (let i = 0; i < pageCount; i++) {
 
 FlowComponent memberikan kamu kemudahan dalam membuat perpindahan ke dalam konten detail dari sebuah halaman yang dinamik. Seperti yang bisa kamu lihat di contoh dibawah. Perbedaan signifikan antara FlowComponent dan PageComponent adalah Page hanya bertujuan untuk merancang sebuah halaman, sedangkan FlowComponent menghubungkan akses antar satu halaman dengan halaman lainnya.
 
-
 <p><img align="center" alt="gif" src="https://miro.medium.com/max/728/1*5iP9qjQ3XIFO_vAXmbYwTQ.gif" width="320" height="640" /><p>
-
 
 ```javascript
 // Flow Component Example
@@ -433,7 +429,7 @@ screenB.onClick(function () {
 
 ## 7. Basic Animation
 
-Sebagai bagian dari prinsip Visual Programming, animasi menjadi topik yang relevan dengan 'penerjemahan proses yang sistematis ke dalam visualisasi yang interaktif'. Contohnya, sebuah obyek lingkaran akan berubah warna serta arah gerak sumbu X saat diklik. 
+Sebagai bagian dari prinsip Visual Programming, animasi menjadi topik yang relevan dengan 'penerjemahan proses yang sistematis ke dalam visualisasi yang interaktif'. Contohnya, sebuah obyek lingkaran akan berubah warna serta arah gerak sumbu X saat diklik.
 
 ```javascript
 let lingkaran = new Layer({
@@ -456,11 +452,9 @@ lingkaran.onClick(()=>{
 
 ---
 
-
-
 ## 8. Animation with Lottie
 
-Lottie, agar mudah dibayangkan, layaknya sebuah obyek animasi yang telah dirancang menggunakan tools seperti After Effects maupun Lottie Editor secara langsung, yang kemudian dapat diintegrasikan dan divisualisasikan di dalam project yang kamu rancang. Apa perbedaan antara Basic Animation dan Lottie? umumnya, Lottie –jika ingin dirancang secara manual menggunakan kode– akan lebih kompleks dan membutuhkan waktu yang cukup panjang. 
+Lottie, agar mudah dibayangkan, layaknya sebuah obyek animasi yang telah dirancang menggunakan tools seperti After Effects maupun Lottie Editor secara langsung, yang kemudian dapat diintegrasikan dan divisualisasikan di dalam project yang kamu rancang. Apa perbedaan antara Basic Animation dan Lottie? umumnya, Lottie –jika ingin dirancang secara manual menggunakan kode– akan lebih kompleks dan membutuhkan waktu yang cukup panjang.
 
 Itu sebabnya, dalam praktiknya, file Lottie akan terlebih dulu dirancang oleh animator, kemudian dikonversi menjadi file berbentuk .json. Setelahnya, kamu hanya perlu mengintegrasikan animasi tersebut di dalam projectmu. Untuk melihat contoh animasi Lottie, kamu bisa ketuk link [ini](https://lottiefiles.com/featured)
 
